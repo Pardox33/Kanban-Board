@@ -1,0 +1,125 @@
+.header-page-board {
+  height: 95px;
+  padding: 0 35px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #121429, #3F468F, #121429);
+  padding: 1rem 3rem;
+}
+
+.logo {
+  font-family: Pacifico, cursive;
+  font-size: 42px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.search-bar {
+  width: 500px;
+  height: 55px;
+  border-radius: 15px;
+  background: linear-gradient(90deg,
+      #313886,
+      #282D5C,
+      #121429);
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  padding-left: 30px;
+}
+
+.search-bar input {
+  width: 80%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+
+.search-bar img {
+  width: 35px;
+  height: 35px;
+}
+
+.search-bar span {
+  font-size: 36px;
+  letter-spacing: 1.08px;
+  opacity: 0.9;
+}
+
+/* -----------------board------------------------------*/
+
+.board-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  padding-left: 50px;
+}
+
+.board-header {
+  position: absolute;
+}
+
+.board-header input {
+ background:#4b4f91;
+  border: none;
+  outline: none;
+  padding: 11px 20px;
+  font-size: 25px;
+  border-radius: 12px 12px 0 0;
+  color: white;
+  width: 220px;
+}
+
+.board-header ::placeholder {
+  color: white;
+}
+
+.board-body {
+  width: 1420px;
+  background: #4b4f91;
+  border-radius: 0 12px 12px 12px;
+  padding:20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+}
+
+.board-body-columns {
+ display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #3f4482;
+  border-radius: 18px;
+}
+
+
+.add-column-btn {
+  margin: 10px auto 0;
+  background: #1f6b00;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.add-column-btn img {
+  width: 35px;
+  height: 35px;
+}
+
+.add-column-btn span {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.add-column-btn:hover {
+ transform: scale(1.05);
+}

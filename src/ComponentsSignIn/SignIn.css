@@ -1,0 +1,123 @@
+.sign-in-page {
+ min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.sign-in-header{
+  background: #0E0F18;
+  padding: 1rem 3rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 42px;
+  text-decoration: none;
+}
+
+.sign-in-header {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+
+.main-content-sign {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  z-index: 10;
+  background: #0E0F18;
+}
+
+
+.sign-in-card {
+  background: white;
+  width: 100%;
+  max-width: 480px;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 2rem;
+  letter-spacing: 1.5px;
+  color:#0E0F18;
+}
+
+
+.sign-content {
+  margin-bottom: 1.5rem;
+}
+
+.input-div {
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.input-div:focus-within {
+  border-color: #0064E6;
+  box-shadow: 0 0 0 3px rgba(0, 100, 230, 0.1);
+}
+
+.input-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.input-content img{
+  width: 24px;
+  opacity: 0.4;
+}
+
+.info-input {
+  border: none;
+   outline: none;
+  font-size: 1.1rem;
+}
+
+.or{
+    color: black;
+}
+
+.create-account {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link-sign {
+  color: #0064E6;
+  text-decoration: none;
+}
+
+
+.btn-bot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-sign {
+  background: #0064E6;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn-sign:hover {
+  background: #0052c2;
+}
+
+
